@@ -15,8 +15,13 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn('','',0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quaerat commodi corporis quod recusandae inventore repellendus sequi, fugiat assumenda soluta deleniti nemo esse ipsa minus labore eos dolorum officiis ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque deserunt magni illo maxime nisi temporibus quaerat adipisci sint debitis. Asperiores similique eum voluptatem expedita sequi temporibus doloremque! Reiciendis, excepturi soluta.
+        I'm a skilled software developer with experience in TypeScript and
+        JavaScript, and expertise in frameworks like React, Node.js, and
+        Three.js. I'm a quick learner and collaborate closely with clients to
+        create efficient, scalable, and user-friendly solutions that solve
+        real-world problems. Let's work together to bring your ideas to life!
 
       </motion.p>
     </>
