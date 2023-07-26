@@ -22,22 +22,22 @@ const Navbar = () => {
 
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer">Angela<span className= "sm:block-hidden"> | Software Engineer </span></p>
+          <p className="text-white text-[18px] font-bold cursor-pointer">Angela<span className= "sm:block hidden"> | Software Engineer </span></p>
         </Link>
-          <ul className="list-none hidden sm:flex flex-row gap-10">
-            {navLinks.map((link) => (
-              <li
-                key={link.id}
-                className={`${
-                  active === link.title
-                    ?"text-white"
-                    :"text-secondary"
-                }`}
-              >
-                <a href={`#${link.id}`}>{link.title}</a>
-              </li>
-            ))}
-          </ul>
+        <ul className="list-none hidden sm:flex flex-row gap-10">
+          {navLinks.map((link) => (
+            <li
+              key={link.id}
+              className={`${
+                active === link.title
+                  ?"text-white"
+                  :"text-secondary"
+              }`}
+            >
+              <a href={`#${link.id}`}>{link.title}</a>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   )

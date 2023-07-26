@@ -38,6 +38,10 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "faq",
+      title: "FAQ"
+    },
   ];
 
   const services = [
